@@ -1,0 +1,206 @@
+.column.s25{
+    width: 25%;
+}   
+
+.column-empty-s7{
+    width: 7.5%;
+    padding: 1px;
+}
+.column-empty-s5{
+    width: 5%;
+    padding: 1px;
+}
+
+
+.skills-content{
+    background-color: var(--background2-color);
+    color: var(--text3-color);
+    margin-bottom: 4em;
+    box-shadow: 0px 0px 8px var(--decoration-color);
+    border-radius: 1em;
+    padding-left: 1em;
+    padding-top: 1px;
+    padding-right: 1em;
+    padding-bottom: 1px;
+}
+
+.skill-line{
+    display:flex;
+    flex-direction: row;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+.skill-line p{
+    width: 50%;
+}
+
+.progress{
+    align-self: center;
+    width: 50%;
+    height: 1em;
+    background-color: gray;
+    background-image: linear-gradient(0deg, #333333, #888888);
+    border-radius: 0.3em;
+    box-shadow: 0px 0px 3px var(--decoration-color);
+}
+
+.bar[level="1"][color="orange"]{
+    width: var(--level1);
+    height: 1em;
+    background-color: orange;
+    background-image: linear-gradient(90deg, var(--grad-from), var(--grad-to));
+    border-radius: 0.3em;
+}
+.bar[level="2"][color="orange"]{
+    width: var(--level2);
+    height: 1em;
+    background-color: orange;
+    background-image: linear-gradient(90deg, var(--grad-from), var(--grad-to));
+    border-radius: 0.3em;
+}
+.bar[level="3"][color="orange"]{
+    width: var(--level3);
+    height: 1em;
+    background-color: orange;
+    background-image: linear-gradient(90deg, var(--grad-from), var(--grad-to));
+    border-radius: 0.3em;
+}
+.bar[level="4"][color="orange"]{
+    width: var(--level4);
+    height: 1em;
+    background-color: orange;
+    background-image: linear-gradient(90deg, var(--grad-from), var(--grad-to));
+    border-radius: 0.3em;
+}
+.bar[level="5"][color="orange"]{
+    width: var(--level5);
+    height: 1em;
+    background-color: orange;
+    background-image: linear-gradient(90deg, var(--grad-from), var(--grad-to));
+    border-radius: 0.3em;
+}
+
+.bar[level="1"][color="green"]{
+    width: var(--level1);
+    height: 1em;
+    background-color: green;
+    background-image: linear-gradient(90deg, var(--grad2-from), var(--grad2-to));
+    border-radius: 0.3em;
+}
+.bar[level="2"][color="green"]{
+    width: var(--level2);
+    height: 1em;
+    background-color: green;
+    background-image: linear-gradient(90deg, var(--grad2-from), var(--grad2-to));
+    border-radius: 0.3em;
+}
+.bar[level="3"][color="green"]{
+    width: var(--level3);
+    height: 1em;
+    background-color: green;
+    background-image: linear-gradient(90deg, var(--grad2-from), var(--grad2-to));
+    border-radius: 0.3em;
+}
+.bar[level="4"][color="green"]{
+    width: var(--level4);
+    height: 1em;
+    background-color: green;
+    background-image: linear-gradient(90deg, var(--grad2-from), var(--grad2-to));
+    border-radius: 0.3em;
+}
+.bar[level="5"][color="green"]{
+    width: var(--level5);
+    height: 1em;
+    background-color: green;
+    background-image: linear-gradient(90deg, var(--grad2-from), var(--grad2-to));
+    border-radius: 0.3em;
+}
+
+.bar[level="1"][color="purple"]{
+    width: var(--level1);
+    height: 1em;
+    background-color: purple;
+    background-image: linear-gradient(90deg, var(--grad3-from), var(--grad3-to));
+    border-radius: 0.3em;
+}
+.bar[level="2"][color="purple"]{
+    width: var(--level2);
+    height: 1em;
+    background-color: purple;
+    background-image: linear-gradient(90deg, var(--grad3-from), var(--grad3-to));
+    border-radius: 0.3em;
+}
+.bar[level="3"][color="purple"]{
+    width: var(--level3);
+    height: 1em;
+    background-color: purple;
+    background-image: linear-gradient(90deg, var(--grad3-from), var(--grad3-to));
+    border-radius: 0.3em;
+}
+.bar[level="4"][color="purple"]{
+    width: var(--level4);
+    height: 1em;
+    background-color: purple;
+    background-image: linear-gradient(90deg, var(--grad3-from), var(--grad3-to));
+    border-radius: 0.3em;
+}
+.bar[level="5"][color="purple"]{
+    width: var(--level5);
+    height: 1em;
+    background-color: purple;
+    background-image: linear-gradient(90deg, var(--grad3-from), var(--grad3-to));
+    border-radius: 0.3em;
+}
+/*
+.skills-content p{
+} 
+*/
+.skills-content h1{
+    font-size: 2em;
+    text-align: center;
+} 
+
+/* compressed window*/
+@media screen and (min-width: 742px) and (max-width: 1200px) {
+
+    .row{
+        display: inline;
+    }
+
+    .column.s25 {
+      width: 40%;
+      padding-left: 5%;
+      padding-right:5%;
+    }
+
+    .column-empty-s5{
+        width: 0%;
+    }
+
+    .column-empty-s7{
+        width: 0%;
+    }
+}
+
+/* Phones or tablets */
+@media only screen and (max-width: 742px) {
+
+    .row{
+        display: inline;
+    }
+
+    .column.s25 {
+      width: 80%;
+      padding-left: 10%;
+      padding-right:10%;
+    }
+
+    .column-empty-s5{
+        width: 0%;
+    }
+
+    .column-empty-s7{
+        width: 0%;
+    }
+}

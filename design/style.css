@@ -1,0 +1,130 @@
+/* @import "style2.css*/
+:root {
+    --background-color: #19161d;
+    --background2-color: #26232b;
+    --title1-color: #f7b25c;
+    --title2-color: #f9f871;
+    --link-color: #006e74;
+    --text-color: #eeeeee;
+    --text2-color: #e5e7cf;
+    --text3-color: #d6dba6;
+    --decoration-color: #555555;
+    --grad-to:  #f7735c;
+    --grad-from: #f7b25c;
+    --grad2-to: #338b46;
+    --grad2-from:  #5cf7b6;
+    --grad3-to:  #9f5cf7;
+    --grad3-from: #665cf7;
+    --level1: 30%;
+    --level2: 45%;
+    --level3: 65%;
+    --level4: 80%;
+    --level5: 90%;
+}
+
+html{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+a{
+    color:var(--title1-color);
+    font-size: 3em;
+}
+
+h1{
+    color: var(--title1-color);
+    font-size: 3em;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+h2{
+    color: var(--text3-color);
+    font-size: 2em;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+h3{
+    color: var(--title2-color);
+    font-size: 1.5em;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    color: var(--text2-color);
+    font-size: 1.0em;
+}
+
+.emphasis{
+    color: var(--text3-color);
+}
+
+.link{
+    color: var(--link-color);
+    font-size: 1em;
+}
+.padding-left{
+    padding-left: 1em;
+}
+
+.wrapper-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: center;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.separator {
+    padding-top: 7em;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 100%;
+}
+
+.row {
+    align-items: flex-end;
+    display: flex;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text-centered{
+    text-align: center;
+}
+
+.wrap-column-center{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column ;
+    justify-content: space-around;
+    align-items:center;
+    align-content: center;
+}
+
+.italic{
+    font-style: italic;
+}
