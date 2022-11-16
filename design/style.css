@@ -15,11 +15,14 @@
     --grad2-from:  #5cf7b6;
     --grad3-to:  #9f5cf7;
     --grad3-from: #665cf7;
+    
     --level1: 30%;
     --level2: 45%;
     --level3: 65%;
     --level4: 80%;
     --level5: 90%;
+    --border-color: #eeeeee33;
+    --border-color-hover: #f7b25c80;
 }
 
 html{

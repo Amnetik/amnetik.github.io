@@ -6,7 +6,8 @@
     padding: 0.5em 0;
     min-height: 40px;
     background-color: var(--background2-color);
-    box-shadow: 0 2px 5px var(--decoration-color);
+    border-bottom: 2px solid;
+    border-color: var(--border-color);
 }
 
 .menu-wrapper{
@@ -37,6 +38,10 @@
     flex-direction: row;
 }
 
+.item-menu:hover{
+    color: var(--text2-color);
+}
+
 .item-menu2 {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: normal;
@@ -48,6 +53,10 @@
     display:inline;
     flex-direction: row;
     align-self: flex-end;
+}
+
+.item-menu2:hover{
+    color: var(--text2-color);
 }
 
 /* compressed window*/

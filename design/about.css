@@ -17,12 +17,18 @@
     color: var(--text3-color);
     margin-left: 1em;
     margin-right: 1em;
-    box-shadow: 0px 0px 8px var(--decoration-color);
     border-radius: 1em;
     padding-left: 20px;
     padding-top: 1px;
     padding-right: 20px;
     padding-bottom: 20px;
+    border-radius: 1em;
+    border: 2px solid;
+    border-color: var(--border-color);
+}
+
+.about-content:hover{
+    border-color: var(--border-color-hover);
 }
 
 .about-content p{
