@@ -1,14 +1,17 @@
-.column.s25{
-    width: 25%;
-}   
-
-.column-empty-s7{
-    width: 7.5%;
-    padding: 1px;
+.container {
+    gap: 8% 8%;
+    margin: 5%;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
 }
-.column-empty-s5{
-    width: 5%;
-    padding: 1px;
+
+.col{
+    width: 28%;
 }
 
 
@@ -16,8 +19,6 @@
     background-color: var(--background2-color);
     color: var(--text3-color);
     margin-bottom: 4em;
-    /*box-shadow: 0px 0px 8px var(--decoration-color);*/
-    
     padding-left: 1em;
     padding-top: 1px;
     padding-right: 1em;
@@ -169,45 +170,46 @@
 } 
 
 /* compressed window*/
-@media screen and (min-width: 742px) and (max-width: 1200px) {
+@media screen and (min-width: 900px) and (max-width: 1200px) {
 
-    .row{
-        display: inline;
+    .container{
+        margin: 5%;
+        margin-top: 200px;
+        display: inherit;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
     }
 
-    .column.s25 {
-      width: 40%;
-      padding-left: 5%;
-      padding-right:5%;
+
+    .col {
+        margin: 10%;
+        width: 80%;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
     }
 
-    .column-empty-s5{
-        width: 0%;
-    }
-
-    .column-empty-s7{
-        width: 0%;
-    }
 }
 
 /* Phones or tablets */
-@media only screen and (max-width: 742px) {
+@media only screen and (max-width: 900px) {
 
-    .row{
-        display: inline;
+    .container{
+        margin: 5%;
+        margin-top: 200px;
+        display: inherit;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
     }
 
-    .column.s25 {
-      width: 80%;
-      padding-left: 10%;
-      padding-right:10%;
-    }
 
-    .column-empty-s5{
-        width: 0%;
-    }
-
-    .column-empty-s7{
-        width: 0%;
+    .col {
+        margin: 10%;
+        width: 80%;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
     }
 }

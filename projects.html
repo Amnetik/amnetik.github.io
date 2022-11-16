@@ -22,101 +22,101 @@
                 </div>
             </nav>
         </header>
-        <div class="separator"></div>
-        <div class="row flex-start">
-
-
-            <div class="column s50">
-
-                <div class="project-content">
-                    <div class="row">
-                        <div class="column s75" >
-                            <h1>TrashTalk bot</h1>
-                            <p>This is a two week project I designed to help me trashtalk my opponents in video games and improve my chances of winning. 
-                                I wanted to create a program that writes a random message out of a CSV file sorted
-                            by message categories (Greeting, Comment on shots, etc..) and by message strength (ranked from 1:friendly to 5:mean).
-                            </p> 
-                            <p>I have designed an original layout using, for the first time, the WPF tool (Windows Presentation Form) on Visual Studio. The graphics are coded
-                                in XAML, a markup language similar to XML or HTML, and the data processing is coded in C#, my language of choice when it comes to 
-                                Desktop applications.
-                            </p>
-                            <p class="emphasis italic">C#, Visual Studio, WPF, XAML, CSV</p> 
+        <div class="container-proj ">
+            <!-- Column 1 -->
+            <div class="col-proj">
+                <div>
+                    <div class="project-content">
+                        <div class="row">
+                            <div class="column s75" >
+                                <h1>TrashTalk bot</h1>
+                                <p>This is a two week project I designed to help me trashtalk my opponents in video games and improve my chances of winning. 
+                                    I wanted to create a program that writes a random message out of a CSV file sorted
+                                by message categories (Greeting, Comment on shots, etc..) and by message strength (ranked from 1:friendly to 5:mean).
+                                </p> 
+                                <p>I have designed an original layout using, for the first time, the WPF tool (Windows Presentation Form) on Visual Studio. The graphics are coded
+                                    in XAML, a markup language similar to XML or HTML, and the data processing is coded in C#, my language of choice when it comes to 
+                                    Desktop applications.
+                                </p>
+                                <p class="emphasis italic">C#, Visual Studio, WPF, XAML, CSV</p> 
+                            </div>
+                            <div class="column s25 wrap-column-center">
+                                <img class="project-image " src="assets/Capture_InGame.png" alt="Usage of bot in game">
+                                <a class="link" href="https://github.com/Amnetik/TrashTalkBot">github</a>
+                            </div>
                         </div>
-                        <div class="column s25 wrap-column-center">
-                            <img class="project-image " src="assets/Capture_InGame.png" alt="Usage of bot in game">
-                            <a class="link" href="https://github.com/Amnetik/TrashTalkBot">github</a>
+                    </div>
+    
+                    <div class="project-content">
+                        <div class="row">
+                            <div class="column s75" >
+                                <h1>Portfolio Website</h1>
+                                <p>The website you are currently reading was a project that lasted about a week. It served a double purpose for me as I tought it would 
+                                    be a great way to showcase my ambitions and my qualities as an engineer, but it also allowed me to learn more about
+                                    web development.
+                                </p>
+                                <p>
+                                    This project was written using VS Code and uploaded to my github website domain using the Github Desktop software.
+                                    It might not use state of the art CSS writing, but I tried to make the website as reponsive as possible,
+                                    allowing phones and tablets to access to all the information displayed, as well as desktop computers.
+                                </p>
+                                <p class="emphasis italic">Website, CSS, HTML, VS Code</p>  
+                            </div>
+                            <div class="column s25 wrap-column-center">
+                                <img class="project-image " src="assets/preview_site.png" alt="preview of this website">
+                                <a class="link" href="https://github.com/Amnetik/amnetik.github.io">github</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="project-content">
-                    <div class="row">
-                        <div class="column s75" >
-                            <h1>Portfolio Website</h1>
-                            <p>The website you are currently reading was a project that lasted about a week. It served a double purpose for me as I tought it would 
-                                be a great way to showcase my ambitions and my qualities as an engineer, but it also allowed me to learn more about
-                                web development.
-                            </p>
-                            <p>
-                                This project was written using VS Code and uploaded to my github website domain using the Github Desktop software.
-                                It might not use state of the art CSS writing, but I tried to make the website as reponsive as possible,
-                                allowing phones and tablets to access to all the information displayed, as well as desktop computers.
-                            </p>
-                            <p class="emphasis italic">Website, CSS, HTML, VS Code</p>  
-                        </div>
-                        <div class="column s25 wrap-column-center">
-                            <img class="project-image " src="assets/preview_site.png" alt="preview of this website">
-                            <a class="link" href="https://github.com/Amnetik/amnetik.github.io">github</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-
-
-            <div class="column s50">
-
-                <div class="project-content">
-                    <div class="row">
-                        <div class="column s75" >
-                            <h1>PasteCodeBot </h1>
-                            <p>This is a month long project that allows for a better showcase of code on Discord messages. Discord has a built-in feature to print text in 
-                                a code box with different coloring as an IDE would do, when specifying the programming language. 
-                                I wanted to make it easier and fully automatic. So I created that Discord Bot that you can invite on your server, on which you can configure
-                                the desired language, and when you send a message, the bot automatically deletes your message, and prints it back in a better format, 
-                                splitting up in multiple messages if necessary. (Discord has a 2000 characters limit)
-                            </p> 
-                            <p>This program was written in C#, on Visual Studio, using the DiscordNet library to communicate with the Discord API.
-                                 The bot has a few commands used to configure itself, all accessible with the prefix "*" when typing a message.
-                            </p>
-                            <p class="emphasis italic">C#, Visual Studio, Discord Bot, API</p>  
+            <!-- Column 2 -->
+            <div class="col-proj">
+                <div>
+                    <div class="project-content">
+                        <div class="row">
+                            <div class="column s75" >
+                                <h1>PasteCodeBot </h1>
+                                <p>This is a month long project that allows for a better showcase of code on Discord messages. Discord has a built-in feature to print text in 
+                                    a code box with different coloring as an IDE would do, when specifying the programming language. 
+                                    I wanted to make it easier and fully automatic. So I created that Discord Bot that you can invite on your server, on which you can configure
+                                    the desired language, and when you send a message, the bot automatically deletes your message, and prints it back in a better format, 
+                                    splitting up in multiple messages if necessary. (Discord has a 2000 characters limit)
+                                </p> 
+                                <p>This program was written in C#, on Visual Studio, using the DiscordNet library to communicate with the Discord API.
+                                     The bot has a few commands used to configure itself, all accessible with the prefix "*" when typing a message.
+                                </p>
+                                <p class="emphasis italic">C#, Visual Studio, Discord Bot, API</p>  
+                            </div>
+                            <div class="column s25 wrap-column-center">
+                                <img class="project-image " src="assets/Capture_Paste_Code.png" alt="Usage of the bot on discord">
+                                <a class="link" href="https://github.com/Amnetik/PasteCodeBot">github</a>
+                            </div>
                         </div>
-                        <div class="column s25 wrap-column-center">
-                            <img class="project-image " src="assets/Capture_Paste_Code.png" alt="Usage of bot in game">
-                            <a class="link" href="https://github.com/Amnetik/PasteCodeBot">github</a>
+                    </div>
+    
+                    <div class="project-content">
+                        <div class="row">
+                            <div class="column s75" >
+                                <h1>PFD on a tablet</h1>
+                                <p>This is a 2 months school project I did in my third year of Licence, with a team of 5 students.
+                                    The goal of this project was to create a Primary Flight Display (PFD) on a touch pad screen controlled
+                                    with a Raspberry Pi 4. It had its own battery and sensors to make this fully portable and flight ready.
+                                </p> 
+                                <p>My task was to create the User Interface, so I decided to program this in C++ using the help of the SFML Library.
+                                    I had to design and allow animations for many flight intruments and even an artificial horizon. I also made
+                                    use of the touch sensitive screen and added multiple layouts and configurations to improve the user's experience.
+                                </p> 
+                                <p class="emphasis italic">Raspberry Pi, C++, Graphic Rendering, SFML, Flight Instruments </p>  
+                            </div>
+                            <div class="column s25 wrap-column-center">
+                                <img class="project-image " src="assets/Animation2.gif" alt="PFD">
+                                <a class="link" href="https://github.com/Amnetik">github</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="project-content">
-                    <div class="row">
-                        <div class="column s75" >
-                            <h1>Projet 4</h1>
-                            <p>Add a description : Work in progress
-                            </p> 
-                            <p class="emphasis italic">keywords</p>  
-                        </div>
-                        <div class="column s25 wrap-column-center">
-                            <img class="project-image " src="assets/empty.png" alt="Usage of bot in game">
-                            <a class="link" href="https://github.com/Amnetik">github</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
-            
-
         </div>
-
     </body>
 </html>

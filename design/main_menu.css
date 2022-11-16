@@ -76,6 +76,10 @@
         flex-direction: column;
     }
 
+    .item-menu{
+        font-size: 2em;
+    }
+
     .menu-right{
         flex-direction: column;
     }
